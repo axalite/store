@@ -1,0 +1,7 @@
+DOMAIN-SUFFIX,139.224.5.157,REJECT
+DOMAIN,emdcadvertise.eastmoney.com,REJECT
+DOMAIN,emdcadvise.eastmoney.com,REJECT
+DOMAIN,hub5idx.v6.shub.sandai.net,reject
+DOMAIN,hub5emu.v6.shub.sandai.net,reject
+DOMAIN,hub5btmain.v6.shub.sandai.net,reject
+DOMAIN,amdc.m.taobao.com,reject
