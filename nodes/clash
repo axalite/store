@@ -2751,7 +2751,138 @@ proxies:
   - {name: 🇺🇸 「SCP」US-BuyVM3 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}}
   - {name: 🇺🇸 「SCP」US-DP1 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
   - {name: 🇺🇸 「SCP」US-DP2 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国 5, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 5ce9cb0d-6b12-4dbd-9114-74fd11dc6f35, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fr.binghe.design}}}
+  - {name: 距离下次重置剩余：6 天, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: azjp1-tg-data.amazonwebservicess.com}}}
+  - {name: 🇯🇵 日本01|专线|解锁, server: azjp1-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本03|专线|解锁, server: azjp3-tg-data.amazonwebservicess.com, port: 10307, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国01|专线|解锁, server: azkr1-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 香港01|专线|流媒体, server: azhk1-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 香港HKT|免流|01, server: hkt1-tg-data.amazonwebservicess.com, port: 80, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aws-china-media/Y699Gjx2rNw.mp4, headers: {Host: media.amazonwebservices.com}}}
+  - {name: 🇭🇰 香港HKT|临时|01, server: hkt1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: tls.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港HKT|免流|02, server: hkt2-tg-data.amazonwebservicess.com, port: 80, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}}
+  - {name: 🇭🇰 香港HKT|临时|02, server: hkt2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: tls.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港HKT|免流|03, server: hkt3.amazonwebservicess.com, port: 80, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aws-china-media/Y699Gjx2rNw.mp4, headers: {Host: media.amazonwebservices.com}}}
+  - {name: 🇭🇰 香港HKT|临时|03, server: hkt3.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: tls.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港HGC|免流|临时, server: 223.16.93.223, port: 80, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady, headers: {Host: fls-na.amazon.com}}}
+  - {name: 🇰🇷 韩国02|专线, server: azkr2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: tls.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾CHG|临时, server: 61.224.72.154, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: tls.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港临时|优化|LV5, server: szct.xn--dlq110j6ul.cc, port: 23386, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港02|专线|解锁, server: azhk2-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 香港03|专线|解锁, server: azhk3-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 香港04|专线, server: azhk4-tg-data.amazonwebservicess.com, port: 50308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本02|专线|解锁, server: azjp2-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本04|专线, server: azjp4-tg-data.amazonwebservicess.com, port: 50308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 香港HKT|200M, server: hkt200m.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港01|高速|解锁, server: awshk1-data.amazon-azure.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazon-azure.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港02|高速|解锁, server: awshk2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港03|高速|解锁, server: awshk3-data.amazon-azure.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazon-azure.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港04|高速|解锁, server: awshk4-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港05|高速|解锁, server: awshk5-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港06|高速||解锁|LV1, server: awshk6-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港07|高速||解锁|LV1, server: awshk7-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港08|高速|解锁|LV1, server: awshk8-data.amazon-azure.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazon-azure.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港09|高速|解锁|LV1, server: awshk9-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港10|高速|解锁|LV1, server: awshk10-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港11|高速|解锁, server: awshk11-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港12|高速|解锁, server: awshk12-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港13|高速, server: awshk13-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡01|高速|解锁, server: awssg1-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡02|高速|解锁, server: awssg2-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡03|高速|解锁, server: awssg3-data.amazon-azure.com, port: 10307, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡04|高速|解锁, server: awssg4-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡05|高速|解锁, server: awssg5-tg-data.amazonwebservicess.com, port: 10304, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡06|高速|解锁|LV1, server: awssg6-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡08|高速|临时, server: szct.xn--dlq110j6ul.cc, port: 25227, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡07|高速|解锁|LV1, server: awssg7-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡08|高速|解锁|LV1, server: awssg8-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡09|高速|解锁|LV1, server: awssg9-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡10|高速|解锁|LV1, server: awssg10-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡11|高速|免流, server: szct.xn--dlq110j6ul.cc, port: 46643, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady, headers: {Host: fls-na.amazon.com}}}
+  - {name: 🇸🇬 新加坡12|高速|解锁, server: awssg12-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡13|高速|解锁, server: awssg13-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡14|高速|解锁, server: awssg14-data.amazon-azure.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本01|高速|解锁, server: awsjp1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本02|高速|解锁, server: awsjp2-data.amazon-azure.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本03|高速|解锁, server: awsjp3-data.amazon-azure.com, port: 10307, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本04|高速|解锁, server: awsjp4-data.amazon-azure.com, port: 80, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}}
+  - {name: 🇯🇵 日本05|高速|解锁, server: awsjp5-data.amazon-azure.com, port: 10307, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本06|高速|解锁|LV1, server: awsjp6-data.amazon-azure.com, port: 10307, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本07|高速|解锁|LV1, server: awsjp7-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本08|高速|解锁|LV1, server: awsjp8-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本09|高速|解锁|LV1, server: awsjp9-tg-data.amazonwebservicess.com, port: 80, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}}
+  - {name: 🇯🇵 日本10|高速|解锁|LV1, server: awsjp10-tg-data.amazonwebservicess.com, port: 10303, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 日本11|高速, server: awsjp11-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国02|高速, server: awskr2-tg-data.amazonwebservicess.com, port: 10308, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾04|负载均衡, server: szct.xn--dlq110j6ul.cc, port: 27778, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾05|LV5, server: szct.xn--dlq110j6ul.cc, port: 33325, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾06|LV5, server: jmcm.xn--dlq110j6ul.cc, port: 14743, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾07|LV5, server: zhuhai.cfcloud.life, port: 53571, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾08|LV5, server: szct.xn--dlq110j6ul.cc, port: 33042, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾09|LV5, server: jscm.xn--dlq110j6ul.cc, port: 59579, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国02|高速|流媒体|x10, server: szct.xn--dlq110j6ul.cc, port: 28994, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇦🇺 澳大利亚01|高速, server: szct.xn--dlq110j6ul.cc, port: 27088, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}}
+  - {name: 🇬🇧 英国02, server: cfgb2.baf1.sbs, port: 443, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: cfgb2.baf1.sbs}}}
+  - {name: 🇮🇳 印度01|高速, server: awsin1-tg-data.amazonwebservicess.com, port: 10307, type: vmess, uuid: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡中转|x10, server: jscm.xn--dlq110j6ul.cc, port: 25168, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇯🇵 日本中转|x10, server: szct.xn--dlq110j6ul.cc, port: 47600, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇯🇵 日本中转02|x10, server: jscm.xn--dlq110j6ul.cc, port: 57499, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇯🇵 日本01|中转|临时|x10, server: ahcu.pangupy.com, port: 11086, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇯🇵 日本04|中转|高速x10, server: jscm.xn--dlq110j6ul.cc, port: 14084, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇯🇵 日本05|中转|高速x10, server: jmcm.xn--dlq110j6ul.cc, port: 30441, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇺🇸 美国03|x10, server: szct.xn--dlq110j6ul.cc, port: 45850, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇺🇸 美国06|x10, server: hbcu.xn--dlq110j6ul.cc, port: 28543, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇬🇧 英国01|x10, server: jscm.xn--dlq110j6ul.cc, port: 54694, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇮🇳 印度02|x10, server: hbcu.xn--dlq110j6ul.cc, port: 14983, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇦🇷 阿根廷01|原生|x10, server: zhuhai.cfcloud.life, port: 19399, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇱🇺 卢森堡01|原生|x4|LV5, server: zhuhai.cfcloud.life, port: 17385, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 乌克兰01|原生|x10, server: jscm.xn--dlq110j6ul.cc, port: 49886, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇹🇷 土耳其01|原生|x10, server: jscm.xn--dlq110j6ul.cc, port: 10045, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇹🇷 土耳其02|原生|x10, server: jscm.xn--dlq110j6ul.cc, port: 15673, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇩🇪 德国01|x10, server: jscm.xn--dlq110j6ul.cc, port: 37111, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇹🇭 泰国01|x10, server: hbcu.xn--dlq110j6ul.cc, port: 16199, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇹🇭 泰国02|x10, server: jscm.xn--dlq110j6ul.cc, port: 10225, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇻🇳 越南01|x10, server: jscm.xn--dlq110j6ul.cc, port: 35259, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇻🇳 越南02|x10, server: hbcu.xn--dlq110j6ul.cc, port: 59562, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇫🇷 法国01|x10, server: zhuhai.cfcloud.life, port: 41831, type: ss, cipher: chacha20-ietf-poly1305, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇨🇦 加拿大01|x10, server: szct.xn--dlq110j6ul.cc, port: 27581, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇫🇮 芬兰|x10, server: szct.xn--dlq110j6ul.cc, port: 17037, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇰🇿 哈萨克斯坦01|x10, server: szct.xn--dlq110j6ul.cc, port: 53377, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇱🇹 立陶宛01|x10, server: szct.xn--dlq110j6ul.cc, port: 34525, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇮🇱 以色列01|x10, server: zhuhai.cfcloud.life, port: 53687, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇭🇺 匈牙利01|x10, server: jmcm.xn--dlq110j6ul.cc, port: 16368, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇲🇽 墨西哥01|x10, server: hbcu.xn--dlq110j6ul.cc, port: 13995, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇪🇸 西班牙01|x10, server: hbcu.xn--dlq110j6ul.cc, port: 23457, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇵🇱 波兰01|x10, server: szct.xn--dlq110j6ul.cc, port: 57405, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇸🇪 瑞典01|x10, server: szct.xn--dlq110j6ul.cc, port: 18832, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇵🇭 菲律宾01|x10, server: szct.xn--dlq110j6ul.cc, port: 59856, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇵🇹 葡萄牙01|x10, server: szct.xn--dlq110j6ul.cc, port: 59870, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇷🇴 罗马尼亚01|x10, server: szct.xn--dlq110j6ul.cc, port: 11147, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇬🇷 希腊01|x10, server: szct.xn--dlq110j6ul.cc, port: 26524, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇦🇹 奥地利01|x10, server: szct.xn--dlq110j6ul.cc, port: 40032, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇰🇭 柬埔寨01|x10, server: szct.xn--dlq110j6ul.cc, port: 46546, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇵🇰 巴基斯坦01|x10, server: szct.xn--dlq110j6ul.cc, port: 26319, type: ss, cipher: aes-128-gcm, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241}
+  - {name: 🇦🇪 流媒体 | 迪拜 | A | 0.1x, server: nl1.baf1.sbs, port: 443, type: vmess, uuid: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sadwd, headers: {Host: armdux1.titams.xyz}}}
+  - {name: 🇦🇪 流媒体 | 迪拜 | B | 0.1x, server: armdux2.titams.xyz, port: 443, type: vmess, uuid: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sadwd, headers: {Host: armdux2.titams.xyz}}}
+  - {name: 🇺🇸 流媒体 | 美国 | A | 0.1x, server: armus1.titams.xyz, port: 443, type: vmess, uuid: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sadwd, headers: {Host: armus1.titams.xyz}}}
+  - {name: 🇺🇸 流媒体 | 美国 | B | 0.1x, server: armus2.titams.xyz, port: 443, type: vmess, uuid: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sadwd, headers: {Host: armus2.titams.xyz}}}
+  - {name: 🇧🇷 流媒体 | 巴西 | A | 0.1x, server: amdbr1.titams.xyz, port: 443, type: vmess, uuid: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sadwd, headers: {Host: amdbr1.titams.xyz}}}
+  - {name: 🇧🇷 流媒体 | 巴西 | B | 0.1x, server: amdbr2.titams.xyz, port: 443, type: vmess, uuid: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sadwd, headers: {Host: amdbr2.titams.xyz}}}
+  - {name: 🇮🇳 流媒体 | 印度 | A | 0.1x, server: armid1.titams.xyz, port: 443, type: vmess, uuid: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sadwd, headers: {Host: armid1.titams.xyz}}}
+  - {name: 🇮🇳 流媒体 | 印度 | B | 0.1x, server: armid2.titams.xyz, port: 443, type: vmess, uuid: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sadwd, headers: {Host: armid2.titams.xyz}}}
+  - {name: 🇸🇬 新加坡 | 负载均衡 | A | 1x, server: jscm.r1u.cn, port: 20195, type: ss, cipher: chacha20-ietf-poly1305, password: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5}
+  - {name: 🇸🇬 新加坡 | 负载均衡 | B | 1x, server: jscm.r1u.cn, port: 28031, type: ss, cipher: chacha20-ietf-poly1305, password: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5}
+  - {name: 🇭🇰 香港 | HGC | A | 2x, server: jscm.r1u.cn, port: 10533, type: ss, cipher: aes-256-gcm, password: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5}
+  - {name: 🇭🇰 香港 | 负载均衡 | A | 1x, server: jscm.r1u.cn, port: 12361, type: ss, cipher: chacha20-ietf-poly1305, password: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5}
+  - {name: 🇭🇰 香港 | 负载均衡 | B | 1x, server: jscm.r1u.cn, port: 11408, type: ss, cipher: chacha20-ietf-poly1305, password: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5}
+  - {name: 🇯🇵 日本 | 负载均衡 | A | 1x, server: jscm.r1u.cn, port: 12335, type: ss, cipher: chacha20-ietf-poly1305, password: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5}
+  - {name: 🇯🇵 日本 | 负载均衡 | B | 1x, server: jscm.r1u.cn, port: 17787, type: ss, cipher: chacha20-ietf-poly1305, password: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5}
+  - {name: 🇺🇸 美国 | 负载均衡 | A | 1x, server: jscm.r1u.cn, port: 33881, type: ss, cipher: chacha20-ietf-poly1305, password: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5}
+  - {name: 🇰🇷 韩国 | KR | A | 1x, server: jscm.r1u.cn, port: 33651, type: ss, cipher: chacha20-ietf-poly1305, password: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5}
+  - {name: 🇨🇳 台湾 | TW | A | 1x, server: jscm.r1u.cn, port: 12196, type: ss, cipher: chacha20-ietf-poly1305, password: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5}
+  - {name: 🇨🇳 台湾家宽 | TW Hinet | B | 1x, server: jscm.r1u.cn, port: 24016, type: ss, cipher: chacha20-ietf-poly1305, password: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5}
+  - {name: 🇹🇷 土耳其原生 | A | 1x, server: jscm.r1u.cn, port: 30395, type: ss, cipher: chacha20-ietf-poly1305, password: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5}
+  - {name: 🇦🇷 阿根廷原生 | A | 1x, server: jscm.r1u.cn, port: 32217, type: ss, cipher: chacha20-ietf-poly1305, password: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5}
+  - {name: 🇪🇪 爱沙尼亚 | EE | A | 1x, server: jscm.r1u.cn, port: 24760, type: ss, cipher: chacha20-ietf-poly1305, password: 15cf67d3-c2b9-496c-bf45-5f1a906ed1e5}
+  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国 5, server: jscm.r1u.cn, port: 30013, type: ss, cipher: chacha20-ietf-poly1305, password: 5ce9cb0d-6b12-4dbd-9114-74fd11dc6f35, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fr.binghe.design, path: /, tls: true, mux: false, skip-cert-verify: false}}
   - {name: 🇺🇸 _US_美国 36, server: ca-nnc.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ca-nnc.ilovescp.com}}}
   - {name: _CN_中国 4, server: hn.xiaohouzi.club, port: 18581, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 2 4, server: 172.67.145.166, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: chacha20-ietf-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}}
@@ -6256,6 +6387,137 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM3 2
       - 🇺🇸 「SCP」US-DP1 2
       - 🇺🇸 「SCP」US-DP2 2
+      - 距离下次重置剩余：6 天
+      - 🇯🇵 日本01|专线|解锁
+      - 🇯🇵 日本03|专线|解锁
+      - 🇰🇷 韩国01|专线|解锁
+      - 🇭🇰 香港01|专线|流媒体
+      - 🇭🇰 香港HKT|免流|01
+      - 🇭🇰 香港HKT|临时|01
+      - 🇭🇰 香港HKT|免流|02
+      - 🇭🇰 香港HKT|临时|02
+      - 🇭🇰 香港HKT|免流|03
+      - 🇭🇰 香港HKT|临时|03
+      - 🇭🇰 香港HGC|免流|临时
+      - 🇰🇷 韩国02|专线
+      - 🇨🇳 台湾CHG|临时
+      - 🇭🇰 香港临时|优化|LV5
+      - 🇭🇰 香港02|专线|解锁
+      - 🇭🇰 香港03|专线|解锁
+      - 🇭🇰 香港04|专线
+      - 🇯🇵 日本02|专线|解锁
+      - 🇯🇵 日本04|专线
+      - 🇭🇰 香港HKT|200M
+      - 🇭🇰 香港01|高速|解锁
+      - 🇭🇰 香港02|高速|解锁
+      - 🇭🇰 香港03|高速|解锁
+      - 🇭🇰 香港04|高速|解锁
+      - 🇭🇰 香港05|高速|解锁
+      - 🇭🇰 香港06|高速||解锁|LV1
+      - 🇭🇰 香港07|高速||解锁|LV1
+      - 🇭🇰 香港08|高速|解锁|LV1
+      - 🇭🇰 香港09|高速|解锁|LV1
+      - 🇭🇰 香港10|高速|解锁|LV1
+      - 🇭🇰 香港11|高速|解锁
+      - 🇭🇰 香港12|高速|解锁
+      - 🇭🇰 香港13|高速
+      - 🇸🇬 新加坡01|高速|解锁
+      - 🇸🇬 新加坡02|高速|解锁
+      - 🇸🇬 新加坡03|高速|解锁
+      - 🇸🇬 新加坡04|高速|解锁
+      - 🇸🇬 新加坡05|高速|解锁
+      - 🇸🇬 新加坡06|高速|解锁|LV1
+      - 🇸🇬 新加坡08|高速|临时
+      - 🇸🇬 新加坡07|高速|解锁|LV1
+      - 🇸🇬 新加坡08|高速|解锁|LV1
+      - 🇸🇬 新加坡09|高速|解锁|LV1
+      - 🇸🇬 新加坡10|高速|解锁|LV1
+      - 🇸🇬 新加坡11|高速|免流
+      - 🇸🇬 新加坡12|高速|解锁
+      - 🇸🇬 新加坡13|高速|解锁
+      - 🇸🇬 新加坡14|高速|解锁
+      - 🇯🇵 日本01|高速|解锁
+      - 🇯🇵 日本02|高速|解锁
+      - 🇯🇵 日本03|高速|解锁
+      - 🇯🇵 日本04|高速|解锁
+      - 🇯🇵 日本05|高速|解锁
+      - 🇯🇵 日本06|高速|解锁|LV1
+      - 🇯🇵 日本07|高速|解锁|LV1
+      - 🇯🇵 日本08|高速|解锁|LV1
+      - 🇯🇵 日本09|高速|解锁|LV1
+      - 🇯🇵 日本10|高速|解锁|LV1
+      - 🇯🇵 日本11|高速
+      - 🇰🇷 韩国02|高速
+      - 🇨🇳 台湾04|负载均衡
+      - 🇨🇳 台湾05|LV5
+      - 🇨🇳 台湾06|LV5
+      - 🇨🇳 台湾07|LV5
+      - 🇨🇳 台湾08|LV5
+      - 🇨🇳 台湾09|LV5
+      - 🇺🇸 美国02|高速|流媒体|x10
+      - 🇦🇺 澳大利亚01|高速
+      - 🇬🇧 英国02
+      - 🇮🇳 印度01|高速
+      - 🇸🇬 新加坡中转|x10
+      - 🇯🇵 日本中转|x10
+      - 🇯🇵 日本中转02|x10
+      - 🇯🇵 日本01|中转|临时|x10
+      - 🇯🇵 日本04|中转|高速x10
+      - 🇯🇵 日本05|中转|高速x10
+      - 🇺🇸 美国03|x10
+      - 🇺🇸 美国06|x10
+      - 🇬🇧 英国01|x10
+      - 🇮🇳 印度02|x10
+      - 🇦🇷 阿根廷01|原生|x10
+      - 🇱🇺 卢森堡01|原生|x4|LV5
+      - 乌克兰01|原生|x10
+      - 🇹🇷 土耳其01|原生|x10
+      - 🇹🇷 土耳其02|原生|x10
+      - 🇩🇪 德国01|x10
+      - 🇹🇭 泰国01|x10
+      - 🇹🇭 泰国02|x10
+      - 🇻🇳 越南01|x10
+      - 🇻🇳 越南02|x10
+      - 🇫🇷 法国01|x10
+      - 🇨🇦 加拿大01|x10
+      - 🇫🇮 芬兰|x10
+      - 🇰🇿 哈萨克斯坦01|x10
+      - 🇱🇹 立陶宛01|x10
+      - 🇮🇱 以色列01|x10
+      - 🇭🇺 匈牙利01|x10
+      - 🇲🇽 墨西哥01|x10
+      - 🇪🇸 西班牙01|x10
+      - 🇵🇱 波兰01|x10
+      - 🇸🇪 瑞典01|x10
+      - 🇵🇭 菲律宾01|x10
+      - 🇵🇹 葡萄牙01|x10
+      - 🇷🇴 罗马尼亚01|x10
+      - 🇬🇷 希腊01|x10
+      - 🇦🇹 奥地利01|x10
+      - 🇰🇭 柬埔寨01|x10
+      - 🇵🇰 巴基斯坦01|x10
+      - 🇦🇪 流媒体 | 迪拜 | A | 0.1x
+      - 🇦🇪 流媒体 | 迪拜 | B | 0.1x
+      - 🇺🇸 流媒体 | 美国 | A | 0.1x
+      - 🇺🇸 流媒体 | 美国 | B | 0.1x
+      - 🇧🇷 流媒体 | 巴西 | A | 0.1x
+      - 🇧🇷 流媒体 | 巴西 | B | 0.1x
+      - 🇮🇳 流媒体 | 印度 | A | 0.1x
+      - 🇮🇳 流媒体 | 印度 | B | 0.1x
+      - 🇸🇬 新加坡 | 负载均衡 | A | 1x
+      - 🇸🇬 新加坡 | 负载均衡 | B | 1x
+      - 🇭🇰 香港 | HGC | A | 2x
+      - 🇭🇰 香港 | 负载均衡 | A | 1x
+      - 🇭🇰 香港 | 负载均衡 | B | 1x
+      - 🇯🇵 日本 | 负载均衡 | A | 1x
+      - 🇯🇵 日本 | 负载均衡 | B | 1x
+      - 🇺🇸 美国 | 负载均衡 | A | 1x
+      - 🇰🇷 韩国 | KR | A | 1x
+      - 🇨🇳 台湾 | TW | A | 1x
+      - 🇨🇳 台湾家宽 | TW Hinet | B | 1x
+      - 🇹🇷 土耳其原生 | A | 1x
+      - 🇦🇷 阿根廷原生 | A | 1x
+      - 🇪🇪 爱沙尼亚 | EE | A | 1x
       - 🇺🇸 _US_美国->🇫🇷_FR_法国 5
       - 🇺🇸 _US_美国 36
       - _CN_中国 4
@@ -9759,6 +10021,137 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM3 2
       - 🇺🇸 「SCP」US-DP1 2
       - 🇺🇸 「SCP」US-DP2 2
+      - 距离下次重置剩余：6 天
+      - 🇯🇵 日本01|专线|解锁
+      - 🇯🇵 日本03|专线|解锁
+      - 🇰🇷 韩国01|专线|解锁
+      - 🇭🇰 香港01|专线|流媒体
+      - 🇭🇰 香港HKT|免流|01
+      - 🇭🇰 香港HKT|临时|01
+      - 🇭🇰 香港HKT|免流|02
+      - 🇭🇰 香港HKT|临时|02
+      - 🇭🇰 香港HKT|免流|03
+      - 🇭🇰 香港HKT|临时|03
+      - 🇭🇰 香港HGC|免流|临时
+      - 🇰🇷 韩国02|专线
+      - 🇨🇳 台湾CHG|临时
+      - 🇭🇰 香港临时|优化|LV5
+      - 🇭🇰 香港02|专线|解锁
+      - 🇭🇰 香港03|专线|解锁
+      - 🇭🇰 香港04|专线
+      - 🇯🇵 日本02|专线|解锁
+      - 🇯🇵 日本04|专线
+      - 🇭🇰 香港HKT|200M
+      - 🇭🇰 香港01|高速|解锁
+      - 🇭🇰 香港02|高速|解锁
+      - 🇭🇰 香港03|高速|解锁
+      - 🇭🇰 香港04|高速|解锁
+      - 🇭🇰 香港05|高速|解锁
+      - 🇭🇰 香港06|高速||解锁|LV1
+      - 🇭🇰 香港07|高速||解锁|LV1
+      - 🇭🇰 香港08|高速|解锁|LV1
+      - 🇭🇰 香港09|高速|解锁|LV1
+      - 🇭🇰 香港10|高速|解锁|LV1
+      - 🇭🇰 香港11|高速|解锁
+      - 🇭🇰 香港12|高速|解锁
+      - 🇭🇰 香港13|高速
+      - 🇸🇬 新加坡01|高速|解锁
+      - 🇸🇬 新加坡02|高速|解锁
+      - 🇸🇬 新加坡03|高速|解锁
+      - 🇸🇬 新加坡04|高速|解锁
+      - 🇸🇬 新加坡05|高速|解锁
+      - 🇸🇬 新加坡06|高速|解锁|LV1
+      - 🇸🇬 新加坡08|高速|临时
+      - 🇸🇬 新加坡07|高速|解锁|LV1
+      - 🇸🇬 新加坡08|高速|解锁|LV1
+      - 🇸🇬 新加坡09|高速|解锁|LV1
+      - 🇸🇬 新加坡10|高速|解锁|LV1
+      - 🇸🇬 新加坡11|高速|免流
+      - 🇸🇬 新加坡12|高速|解锁
+      - 🇸🇬 新加坡13|高速|解锁
+      - 🇸🇬 新加坡14|高速|解锁
+      - 🇯🇵 日本01|高速|解锁
+      - 🇯🇵 日本02|高速|解锁
+      - 🇯🇵 日本03|高速|解锁
+      - 🇯🇵 日本04|高速|解锁
+      - 🇯🇵 日本05|高速|解锁
+      - 🇯🇵 日本06|高速|解锁|LV1
+      - 🇯🇵 日本07|高速|解锁|LV1
+      - 🇯🇵 日本08|高速|解锁|LV1
+      - 🇯🇵 日本09|高速|解锁|LV1
+      - 🇯🇵 日本10|高速|解锁|LV1
+      - 🇯🇵 日本11|高速
+      - 🇰🇷 韩国02|高速
+      - 🇨🇳 台湾04|负载均衡
+      - 🇨🇳 台湾05|LV5
+      - 🇨🇳 台湾06|LV5
+      - 🇨🇳 台湾07|LV5
+      - 🇨🇳 台湾08|LV5
+      - 🇨🇳 台湾09|LV5
+      - 🇺🇸 美国02|高速|流媒体|x10
+      - 🇦🇺 澳大利亚01|高速
+      - 🇬🇧 英国02
+      - 🇮🇳 印度01|高速
+      - 🇸🇬 新加坡中转|x10
+      - 🇯🇵 日本中转|x10
+      - 🇯🇵 日本中转02|x10
+      - 🇯🇵 日本01|中转|临时|x10
+      - 🇯🇵 日本04|中转|高速x10
+      - 🇯🇵 日本05|中转|高速x10
+      - 🇺🇸 美国03|x10
+      - 🇺🇸 美国06|x10
+      - 🇬🇧 英国01|x10
+      - 🇮🇳 印度02|x10
+      - 🇦🇷 阿根廷01|原生|x10
+      - 🇱🇺 卢森堡01|原生|x4|LV5
+      - 乌克兰01|原生|x10
+      - 🇹🇷 土耳其01|原生|x10
+      - 🇹🇷 土耳其02|原生|x10
+      - 🇩🇪 德国01|x10
+      - 🇹🇭 泰国01|x10
+      - 🇹🇭 泰国02|x10
+      - 🇻🇳 越南01|x10
+      - 🇻🇳 越南02|x10
+      - 🇫🇷 法国01|x10
+      - 🇨🇦 加拿大01|x10
+      - 🇫🇮 芬兰|x10
+      - 🇰🇿 哈萨克斯坦01|x10
+      - 🇱🇹 立陶宛01|x10
+      - 🇮🇱 以色列01|x10
+      - 🇭🇺 匈牙利01|x10
+      - 🇲🇽 墨西哥01|x10
+      - 🇪🇸 西班牙01|x10
+      - 🇵🇱 波兰01|x10
+      - 🇸🇪 瑞典01|x10
+      - 🇵🇭 菲律宾01|x10
+      - 🇵🇹 葡萄牙01|x10
+      - 🇷🇴 罗马尼亚01|x10
+      - 🇬🇷 希腊01|x10
+      - 🇦🇹 奥地利01|x10
+      - 🇰🇭 柬埔寨01|x10
+      - 🇵🇰 巴基斯坦01|x10
+      - 🇦🇪 流媒体 | 迪拜 | A | 0.1x
+      - 🇦🇪 流媒体 | 迪拜 | B | 0.1x
+      - 🇺🇸 流媒体 | 美国 | A | 0.1x
+      - 🇺🇸 流媒体 | 美国 | B | 0.1x
+      - 🇧🇷 流媒体 | 巴西 | A | 0.1x
+      - 🇧🇷 流媒体 | 巴西 | B | 0.1x
+      - 🇮🇳 流媒体 | 印度 | A | 0.1x
+      - 🇮🇳 流媒体 | 印度 | B | 0.1x
+      - 🇸🇬 新加坡 | 负载均衡 | A | 1x
+      - 🇸🇬 新加坡 | 负载均衡 | B | 1x
+      - 🇭🇰 香港 | HGC | A | 2x
+      - 🇭🇰 香港 | 负载均衡 | A | 1x
+      - 🇭🇰 香港 | 负载均衡 | B | 1x
+      - 🇯🇵 日本 | 负载均衡 | A | 1x
+      - 🇯🇵 日本 | 负载均衡 | B | 1x
+      - 🇺🇸 美国 | 负载均衡 | A | 1x
+      - 🇰🇷 韩国 | KR | A | 1x
+      - 🇨🇳 台湾 | TW | A | 1x
+      - 🇨🇳 台湾家宽 | TW Hinet | B | 1x
+      - 🇹🇷 土耳其原生 | A | 1x
+      - 🇦🇷 阿根廷原生 | A | 1x
+      - 🇪🇪 爱沙尼亚 | EE | A | 1x
       - 🇺🇸 _US_美国->🇫🇷_FR_法国 5
       - 🇺🇸 _US_美国 36
       - _CN_中国 4
@@ -13261,6 +13654,137 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM3 2
       - 🇺🇸 「SCP」US-DP1 2
       - 🇺🇸 「SCP」US-DP2 2
+      - 距离下次重置剩余：6 天
+      - 🇯🇵 日本01|专线|解锁
+      - 🇯🇵 日本03|专线|解锁
+      - 🇰🇷 韩国01|专线|解锁
+      - 🇭🇰 香港01|专线|流媒体
+      - 🇭🇰 香港HKT|免流|01
+      - 🇭🇰 香港HKT|临时|01
+      - 🇭🇰 香港HKT|免流|02
+      - 🇭🇰 香港HKT|临时|02
+      - 🇭🇰 香港HKT|免流|03
+      - 🇭🇰 香港HKT|临时|03
+      - 🇭🇰 香港HGC|免流|临时
+      - 🇰🇷 韩国02|专线
+      - 🇨🇳 台湾CHG|临时
+      - 🇭🇰 香港临时|优化|LV5
+      - 🇭🇰 香港02|专线|解锁
+      - 🇭🇰 香港03|专线|解锁
+      - 🇭🇰 香港04|专线
+      - 🇯🇵 日本02|专线|解锁
+      - 🇯🇵 日本04|专线
+      - 🇭🇰 香港HKT|200M
+      - 🇭🇰 香港01|高速|解锁
+      - 🇭🇰 香港02|高速|解锁
+      - 🇭🇰 香港03|高速|解锁
+      - 🇭🇰 香港04|高速|解锁
+      - 🇭🇰 香港05|高速|解锁
+      - 🇭🇰 香港06|高速||解锁|LV1
+      - 🇭🇰 香港07|高速||解锁|LV1
+      - 🇭🇰 香港08|高速|解锁|LV1
+      - 🇭🇰 香港09|高速|解锁|LV1
+      - 🇭🇰 香港10|高速|解锁|LV1
+      - 🇭🇰 香港11|高速|解锁
+      - 🇭🇰 香港12|高速|解锁
+      - 🇭🇰 香港13|高速
+      - 🇸🇬 新加坡01|高速|解锁
+      - 🇸🇬 新加坡02|高速|解锁
+      - 🇸🇬 新加坡03|高速|解锁
+      - 🇸🇬 新加坡04|高速|解锁
+      - 🇸🇬 新加坡05|高速|解锁
+      - 🇸🇬 新加坡06|高速|解锁|LV1
+      - 🇸🇬 新加坡08|高速|临时
+      - 🇸🇬 新加坡07|高速|解锁|LV1
+      - 🇸🇬 新加坡08|高速|解锁|LV1
+      - 🇸🇬 新加坡09|高速|解锁|LV1
+      - 🇸🇬 新加坡10|高速|解锁|LV1
+      - 🇸🇬 新加坡11|高速|免流
+      - 🇸🇬 新加坡12|高速|解锁
+      - 🇸🇬 新加坡13|高速|解锁
+      - 🇸🇬 新加坡14|高速|解锁
+      - 🇯🇵 日本01|高速|解锁
+      - 🇯🇵 日本02|高速|解锁
+      - 🇯🇵 日本03|高速|解锁
+      - 🇯🇵 日本04|高速|解锁
+      - 🇯🇵 日本05|高速|解锁
+      - 🇯🇵 日本06|高速|解锁|LV1
+      - 🇯🇵 日本07|高速|解锁|LV1
+      - 🇯🇵 日本08|高速|解锁|LV1
+      - 🇯🇵 日本09|高速|解锁|LV1
+      - 🇯🇵 日本10|高速|解锁|LV1
+      - 🇯🇵 日本11|高速
+      - 🇰🇷 韩国02|高速
+      - 🇨🇳 台湾04|负载均衡
+      - 🇨🇳 台湾05|LV5
+      - 🇨🇳 台湾06|LV5
+      - 🇨🇳 台湾07|LV5
+      - 🇨🇳 台湾08|LV5
+      - 🇨🇳 台湾09|LV5
+      - 🇺🇸 美国02|高速|流媒体|x10
+      - 🇦🇺 澳大利亚01|高速
+      - 🇬🇧 英国02
+      - 🇮🇳 印度01|高速
+      - 🇸🇬 新加坡中转|x10
+      - 🇯🇵 日本中转|x10
+      - 🇯🇵 日本中转02|x10
+      - 🇯🇵 日本01|中转|临时|x10
+      - 🇯🇵 日本04|中转|高速x10
+      - 🇯🇵 日本05|中转|高速x10
+      - 🇺🇸 美国03|x10
+      - 🇺🇸 美国06|x10
+      - 🇬🇧 英国01|x10
+      - 🇮🇳 印度02|x10
+      - 🇦🇷 阿根廷01|原生|x10
+      - 🇱🇺 卢森堡01|原生|x4|LV5
+      - 乌克兰01|原生|x10
+      - 🇹🇷 土耳其01|原生|x10
+      - 🇹🇷 土耳其02|原生|x10
+      - 🇩🇪 德国01|x10
+      - 🇹🇭 泰国01|x10
+      - 🇹🇭 泰国02|x10
+      - 🇻🇳 越南01|x10
+      - 🇻🇳 越南02|x10
+      - 🇫🇷 法国01|x10
+      - 🇨🇦 加拿大01|x10
+      - 🇫🇮 芬兰|x10
+      - 🇰🇿 哈萨克斯坦01|x10
+      - 🇱🇹 立陶宛01|x10
+      - 🇮🇱 以色列01|x10
+      - 🇭🇺 匈牙利01|x10
+      - 🇲🇽 墨西哥01|x10
+      - 🇪🇸 西班牙01|x10
+      - 🇵🇱 波兰01|x10
+      - 🇸🇪 瑞典01|x10
+      - 🇵🇭 菲律宾01|x10
+      - 🇵🇹 葡萄牙01|x10
+      - 🇷🇴 罗马尼亚01|x10
+      - 🇬🇷 希腊01|x10
+      - 🇦🇹 奥地利01|x10
+      - 🇰🇭 柬埔寨01|x10
+      - 🇵🇰 巴基斯坦01|x10
+      - 🇦🇪 流媒体 | 迪拜 | A | 0.1x
+      - 🇦🇪 流媒体 | 迪拜 | B | 0.1x
+      - 🇺🇸 流媒体 | 美国 | A | 0.1x
+      - 🇺🇸 流媒体 | 美国 | B | 0.1x
+      - 🇧🇷 流媒体 | 巴西 | A | 0.1x
+      - 🇧🇷 流媒体 | 巴西 | B | 0.1x
+      - 🇮🇳 流媒体 | 印度 | A | 0.1x
+      - 🇮🇳 流媒体 | 印度 | B | 0.1x
+      - 🇸🇬 新加坡 | 负载均衡 | A | 1x
+      - 🇸🇬 新加坡 | 负载均衡 | B | 1x
+      - 🇭🇰 香港 | HGC | A | 2x
+      - 🇭🇰 香港 | 负载均衡 | A | 1x
+      - 🇭🇰 香港 | 负载均衡 | B | 1x
+      - 🇯🇵 日本 | 负载均衡 | A | 1x
+      - 🇯🇵 日本 | 负载均衡 | B | 1x
+      - 🇺🇸 美国 | 负载均衡 | A | 1x
+      - 🇰🇷 韩国 | KR | A | 1x
+      - 🇨🇳 台湾 | TW | A | 1x
+      - 🇨🇳 台湾家宽 | TW Hinet | B | 1x
+      - 🇹🇷 土耳其原生 | A | 1x
+      - 🇦🇷 阿根廷原生 | A | 1x
+      - 🇪🇪 爱沙尼亚 | EE | A | 1x
       - 🇺🇸 _US_美国->🇫🇷_FR_法国 5
       - 🇺🇸 _US_美国 36
       - _CN_中国 4
@@ -16764,6 +17288,137 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM3 2
       - 🇺🇸 「SCP」US-DP1 2
       - 🇺🇸 「SCP」US-DP2 2
+      - 距离下次重置剩余：6 天
+      - 🇯🇵 日本01|专线|解锁
+      - 🇯🇵 日本03|专线|解锁
+      - 🇰🇷 韩国01|专线|解锁
+      - 🇭🇰 香港01|专线|流媒体
+      - 🇭🇰 香港HKT|免流|01
+      - 🇭🇰 香港HKT|临时|01
+      - 🇭🇰 香港HKT|免流|02
+      - 🇭🇰 香港HKT|临时|02
+      - 🇭🇰 香港HKT|免流|03
+      - 🇭🇰 香港HKT|临时|03
+      - 🇭🇰 香港HGC|免流|临时
+      - 🇰🇷 韩国02|专线
+      - 🇨🇳 台湾CHG|临时
+      - 🇭🇰 香港临时|优化|LV5
+      - 🇭🇰 香港02|专线|解锁
+      - 🇭🇰 香港03|专线|解锁
+      - 🇭🇰 香港04|专线
+      - 🇯🇵 日本02|专线|解锁
+      - 🇯🇵 日本04|专线
+      - 🇭🇰 香港HKT|200M
+      - 🇭🇰 香港01|高速|解锁
+      - 🇭🇰 香港02|高速|解锁
+      - 🇭🇰 香港03|高速|解锁
+      - 🇭🇰 香港04|高速|解锁
+      - 🇭🇰 香港05|高速|解锁
+      - 🇭🇰 香港06|高速||解锁|LV1
+      - 🇭🇰 香港07|高速||解锁|LV1
+      - 🇭🇰 香港08|高速|解锁|LV1
+      - 🇭🇰 香港09|高速|解锁|LV1
+      - 🇭🇰 香港10|高速|解锁|LV1
+      - 🇭🇰 香港11|高速|解锁
+      - 🇭🇰 香港12|高速|解锁
+      - 🇭🇰 香港13|高速
+      - 🇸🇬 新加坡01|高速|解锁
+      - 🇸🇬 新加坡02|高速|解锁
+      - 🇸🇬 新加坡03|高速|解锁
+      - 🇸🇬 新加坡04|高速|解锁
+      - 🇸🇬 新加坡05|高速|解锁
+      - 🇸🇬 新加坡06|高速|解锁|LV1
+      - 🇸🇬 新加坡08|高速|临时
+      - 🇸🇬 新加坡07|高速|解锁|LV1
+      - 🇸🇬 新加坡08|高速|解锁|LV1
+      - 🇸🇬 新加坡09|高速|解锁|LV1
+      - 🇸🇬 新加坡10|高速|解锁|LV1
+      - 🇸🇬 新加坡11|高速|免流
+      - 🇸🇬 新加坡12|高速|解锁
+      - 🇸🇬 新加坡13|高速|解锁
+      - 🇸🇬 新加坡14|高速|解锁
+      - 🇯🇵 日本01|高速|解锁
+      - 🇯🇵 日本02|高速|解锁
+      - 🇯🇵 日本03|高速|解锁
+      - 🇯🇵 日本04|高速|解锁
+      - 🇯🇵 日本05|高速|解锁
+      - 🇯🇵 日本06|高速|解锁|LV1
+      - 🇯🇵 日本07|高速|解锁|LV1
+      - 🇯🇵 日本08|高速|解锁|LV1
+      - 🇯🇵 日本09|高速|解锁|LV1
+      - 🇯🇵 日本10|高速|解锁|LV1
+      - 🇯🇵 日本11|高速
+      - 🇰🇷 韩国02|高速
+      - 🇨🇳 台湾04|负载均衡
+      - 🇨🇳 台湾05|LV5
+      - 🇨🇳 台湾06|LV5
+      - 🇨🇳 台湾07|LV5
+      - 🇨🇳 台湾08|LV5
+      - 🇨🇳 台湾09|LV5
+      - 🇺🇸 美国02|高速|流媒体|x10
+      - 🇦🇺 澳大利亚01|高速
+      - 🇬🇧 英国02
+      - 🇮🇳 印度01|高速
+      - 🇸🇬 新加坡中转|x10
+      - 🇯🇵 日本中转|x10
+      - 🇯🇵 日本中转02|x10
+      - 🇯🇵 日本01|中转|临时|x10
+      - 🇯🇵 日本04|中转|高速x10
+      - 🇯🇵 日本05|中转|高速x10
+      - 🇺🇸 美国03|x10
+      - 🇺🇸 美国06|x10
+      - 🇬🇧 英国01|x10
+      - 🇮🇳 印度02|x10
+      - 🇦🇷 阿根廷01|原生|x10
+      - 🇱🇺 卢森堡01|原生|x4|LV5
+      - 乌克兰01|原生|x10
+      - 🇹🇷 土耳其01|原生|x10
+      - 🇹🇷 土耳其02|原生|x10
+      - 🇩🇪 德国01|x10
+      - 🇹🇭 泰国01|x10
+      - 🇹🇭 泰国02|x10
+      - 🇻🇳 越南01|x10
+      - 🇻🇳 越南02|x10
+      - 🇫🇷 法国01|x10
+      - 🇨🇦 加拿大01|x10
+      - 🇫🇮 芬兰|x10
+      - 🇰🇿 哈萨克斯坦01|x10
+      - 🇱🇹 立陶宛01|x10
+      - 🇮🇱 以色列01|x10
+      - 🇭🇺 匈牙利01|x10
+      - 🇲🇽 墨西哥01|x10
+      - 🇪🇸 西班牙01|x10
+      - 🇵🇱 波兰01|x10
+      - 🇸🇪 瑞典01|x10
+      - 🇵🇭 菲律宾01|x10
+      - 🇵🇹 葡萄牙01|x10
+      - 🇷🇴 罗马尼亚01|x10
+      - 🇬🇷 希腊01|x10
+      - 🇦🇹 奥地利01|x10
+      - 🇰🇭 柬埔寨01|x10
+      - 🇵🇰 巴基斯坦01|x10
+      - 🇦🇪 流媒体 | 迪拜 | A | 0.1x
+      - 🇦🇪 流媒体 | 迪拜 | B | 0.1x
+      - 🇺🇸 流媒体 | 美国 | A | 0.1x
+      - 🇺🇸 流媒体 | 美国 | B | 0.1x
+      - 🇧🇷 流媒体 | 巴西 | A | 0.1x
+      - 🇧🇷 流媒体 | 巴西 | B | 0.1x
+      - 🇮🇳 流媒体 | 印度 | A | 0.1x
+      - 🇮🇳 流媒体 | 印度 | B | 0.1x
+      - 🇸🇬 新加坡 | 负载均衡 | A | 1x
+      - 🇸🇬 新加坡 | 负载均衡 | B | 1x
+      - 🇭🇰 香港 | HGC | A | 2x
+      - 🇭🇰 香港 | 负载均衡 | A | 1x
+      - 🇭🇰 香港 | 负载均衡 | B | 1x
+      - 🇯🇵 日本 | 负载均衡 | A | 1x
+      - 🇯🇵 日本 | 负载均衡 | B | 1x
+      - 🇺🇸 美国 | 负载均衡 | A | 1x
+      - 🇰🇷 韩国 | KR | A | 1x
+      - 🇨🇳 台湾 | TW | A | 1x
+      - 🇨🇳 台湾家宽 | TW Hinet | B | 1x
+      - 🇹🇷 土耳其原生 | A | 1x
+      - 🇦🇷 阿根廷原生 | A | 1x
+      - 🇪🇪 爱沙尼亚 | EE | A | 1x
       - 🇺🇸 _US_美国->🇫🇷_FR_法国 5
       - 🇺🇸 _US_美国 36
       - _CN_中国 4
@@ -20280,6 +20935,137 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM3 2
       - 🇺🇸 「SCP」US-DP1 2
       - 🇺🇸 「SCP」US-DP2 2
+      - 距离下次重置剩余：6 天
+      - 🇯🇵 日本01|专线|解锁
+      - 🇯🇵 日本03|专线|解锁
+      - 🇰🇷 韩国01|专线|解锁
+      - 🇭🇰 香港01|专线|流媒体
+      - 🇭🇰 香港HKT|免流|01
+      - 🇭🇰 香港HKT|临时|01
+      - 🇭🇰 香港HKT|免流|02
+      - 🇭🇰 香港HKT|临时|02
+      - 🇭🇰 香港HKT|免流|03
+      - 🇭🇰 香港HKT|临时|03
+      - 🇭🇰 香港HGC|免流|临时
+      - 🇰🇷 韩国02|专线
+      - 🇨🇳 台湾CHG|临时
+      - 🇭🇰 香港临时|优化|LV5
+      - 🇭🇰 香港02|专线|解锁
+      - 🇭🇰 香港03|专线|解锁
+      - 🇭🇰 香港04|专线
+      - 🇯🇵 日本02|专线|解锁
+      - 🇯🇵 日本04|专线
+      - 🇭🇰 香港HKT|200M
+      - 🇭🇰 香港01|高速|解锁
+      - 🇭🇰 香港02|高速|解锁
+      - 🇭🇰 香港03|高速|解锁
+      - 🇭🇰 香港04|高速|解锁
+      - 🇭🇰 香港05|高速|解锁
+      - 🇭🇰 香港06|高速||解锁|LV1
+      - 🇭🇰 香港07|高速||解锁|LV1
+      - 🇭🇰 香港08|高速|解锁|LV1
+      - 🇭🇰 香港09|高速|解锁|LV1
+      - 🇭🇰 香港10|高速|解锁|LV1
+      - 🇭🇰 香港11|高速|解锁
+      - 🇭🇰 香港12|高速|解锁
+      - 🇭🇰 香港13|高速
+      - 🇸🇬 新加坡01|高速|解锁
+      - 🇸🇬 新加坡02|高速|解锁
+      - 🇸🇬 新加坡03|高速|解锁
+      - 🇸🇬 新加坡04|高速|解锁
+      - 🇸🇬 新加坡05|高速|解锁
+      - 🇸🇬 新加坡06|高速|解锁|LV1
+      - 🇸🇬 新加坡08|高速|临时
+      - 🇸🇬 新加坡07|高速|解锁|LV1
+      - 🇸🇬 新加坡08|高速|解锁|LV1
+      - 🇸🇬 新加坡09|高速|解锁|LV1
+      - 🇸🇬 新加坡10|高速|解锁|LV1
+      - 🇸🇬 新加坡11|高速|免流
+      - 🇸🇬 新加坡12|高速|解锁
+      - 🇸🇬 新加坡13|高速|解锁
+      - 🇸🇬 新加坡14|高速|解锁
+      - 🇯🇵 日本01|高速|解锁
+      - 🇯🇵 日本02|高速|解锁
+      - 🇯🇵 日本03|高速|解锁
+      - 🇯🇵 日本04|高速|解锁
+      - 🇯🇵 日本05|高速|解锁
+      - 🇯🇵 日本06|高速|解锁|LV1
+      - 🇯🇵 日本07|高速|解锁|LV1
+      - 🇯🇵 日本08|高速|解锁|LV1
+      - 🇯🇵 日本09|高速|解锁|LV1
+      - 🇯🇵 日本10|高速|解锁|LV1
+      - 🇯🇵 日本11|高速
+      - 🇰🇷 韩国02|高速
+      - 🇨🇳 台湾04|负载均衡
+      - 🇨🇳 台湾05|LV5
+      - 🇨🇳 台湾06|LV5
+      - 🇨🇳 台湾07|LV5
+      - 🇨🇳 台湾08|LV5
+      - 🇨🇳 台湾09|LV5
+      - 🇺🇸 美国02|高速|流媒体|x10
+      - 🇦🇺 澳大利亚01|高速
+      - 🇬🇧 英国02
+      - 🇮🇳 印度01|高速
+      - 🇸🇬 新加坡中转|x10
+      - 🇯🇵 日本中转|x10
+      - 🇯🇵 日本中转02|x10
+      - 🇯🇵 日本01|中转|临时|x10
+      - 🇯🇵 日本04|中转|高速x10
+      - 🇯🇵 日本05|中转|高速x10
+      - 🇺🇸 美国03|x10
+      - 🇺🇸 美国06|x10
+      - 🇬🇧 英国01|x10
+      - 🇮🇳 印度02|x10
+      - 🇦🇷 阿根廷01|原生|x10
+      - 🇱🇺 卢森堡01|原生|x4|LV5
+      - 乌克兰01|原生|x10
+      - 🇹🇷 土耳其01|原生|x10
+      - 🇹🇷 土耳其02|原生|x10
+      - 🇩🇪 德国01|x10
+      - 🇹🇭 泰国01|x10
+      - 🇹🇭 泰国02|x10
+      - 🇻🇳 越南01|x10
+      - 🇻🇳 越南02|x10
+      - 🇫🇷 法国01|x10
+      - 🇨🇦 加拿大01|x10
+      - 🇫🇮 芬兰|x10
+      - 🇰🇿 哈萨克斯坦01|x10
+      - 🇱🇹 立陶宛01|x10
+      - 🇮🇱 以色列01|x10
+      - 🇭🇺 匈牙利01|x10
+      - 🇲🇽 墨西哥01|x10
+      - 🇪🇸 西班牙01|x10
+      - 🇵🇱 波兰01|x10
+      - 🇸🇪 瑞典01|x10
+      - 🇵🇭 菲律宾01|x10
+      - 🇵🇹 葡萄牙01|x10
+      - 🇷🇴 罗马尼亚01|x10
+      - 🇬🇷 希腊01|x10
+      - 🇦🇹 奥地利01|x10
+      - 🇰🇭 柬埔寨01|x10
+      - 🇵🇰 巴基斯坦01|x10
+      - 🇦🇪 流媒体 | 迪拜 | A | 0.1x
+      - 🇦🇪 流媒体 | 迪拜 | B | 0.1x
+      - 🇺🇸 流媒体 | 美国 | A | 0.1x
+      - 🇺🇸 流媒体 | 美国 | B | 0.1x
+      - 🇧🇷 流媒体 | 巴西 | A | 0.1x
+      - 🇧🇷 流媒体 | 巴西 | B | 0.1x
+      - 🇮🇳 流媒体 | 印度 | A | 0.1x
+      - 🇮🇳 流媒体 | 印度 | B | 0.1x
+      - 🇸🇬 新加坡 | 负载均衡 | A | 1x
+      - 🇸🇬 新加坡 | 负载均衡 | B | 1x
+      - 🇭🇰 香港 | HGC | A | 2x
+      - 🇭🇰 香港 | 负载均衡 | A | 1x
+      - 🇭🇰 香港 | 负载均衡 | B | 1x
+      - 🇯🇵 日本 | 负载均衡 | A | 1x
+      - 🇯🇵 日本 | 负载均衡 | B | 1x
+      - 🇺🇸 美国 | 负载均衡 | A | 1x
+      - 🇰🇷 韩国 | KR | A | 1x
+      - 🇨🇳 台湾 | TW | A | 1x
+      - 🇨🇳 台湾家宽 | TW Hinet | B | 1x
+      - 🇹🇷 土耳其原生 | A | 1x
+      - 🇦🇷 阿根廷原生 | A | 1x
+      - 🇪🇪 爱沙尼亚 | EE | A | 1x
       - 🇺🇸 _US_美国->🇫🇷_FR_法国 5
       - 🇺🇸 _US_美国 36
       - _CN_中国 4
