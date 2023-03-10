@@ -22,4 +22,4 @@ DOMAIN-SUFFIX,api.10101.io,Custom
 DOMAIN-SUFFIX,openai.com,Custom
 DOMAIN-SUFFIX,auth0.com,Custom
 DOMAIN,openaiapi-site.azureedge.net,Custom
-DOMAIN, gpt3-dashboard.ably.dev
+DOMAIN,gpt3-dashboard.ably.dev
